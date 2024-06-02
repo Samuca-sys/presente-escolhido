@@ -19,7 +19,10 @@ app.use(
 	}),
 )
 
-app.use('/api/', giftRoutes)
+//app.use('/api/', giftRoutes)
+app.get('/', (req, res) => {
+	res.json('Hello world')
+})
 
 app.listen(port, () => {
 	console.log(`Server started successfully on port : ${port}`)
