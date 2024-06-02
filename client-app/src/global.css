@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--yellow: #f1c40f;
+	--red: #f0141e;
+	--white: #fff;
+	--light-gray: #808080;
+	--dark-gray: #696969;
+	--black: #000000;
+
+	--font-cursive: 'Homemade Apple', cursive;
+	--font-sans-serif: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: #e7efda;
+	color: var(--black);
+
+	background-image: url('src/assets/flowers.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	position: relative;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		background-size: cover;
+	}
+	html,
+	input,
+	button {
+		font-size: 90%;
+		border-style: none;
+	}
+}
+@media only screen and (min-width: 768px) {
+	html {
+		font-size: 87.5%;
+	}
+}
+@media only screen and (min-width: 992px) {
+	html {
+		font-size: 93.75%;
+	}
+}
