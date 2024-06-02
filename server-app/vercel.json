@@ -1,11 +1,10 @@
 {
 	"version": 2,
-	"builds": [{ "src": "*.ts", "use": "@vercel/node" }],
-	"routes": [{ "src": "/(.*)", "dest": "/" }],
-
-	"headers": [
+	"builds": [{ "src": "./server.ts", "use": "@vercel/node" }],
+	"routes": [
 		{
-			"source": "/api/(.*)",
+			"src": "/(.*)",
+			"dest": "./server.ts",
 			"headers": [
 				{ "key": "Access-Control-Allow-Credentials", "value": "true" },
 				{ "key": "Access-Control-Allow-Origin", "value": "*" },
