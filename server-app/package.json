@@ -2,10 +2,10 @@
 	"name": "gift-chosen-api",
 	"version": "1.0.0",
 	"description": "This project contains gift chosen apis",
-	"main": "server.js",
+	"main": "index.ts",
 	"scripts": {
 		"build": "npx tsc",
-		"start": "npx tsc && node ./src/server.ts",
+		"start": "npx tsc && node /index.ts",
 		"dev": "nodemon",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
