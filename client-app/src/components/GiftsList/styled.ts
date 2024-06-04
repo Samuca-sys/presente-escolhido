@@ -38,7 +38,7 @@ export const List = styled.div`
 
 export const ListContainer = styled.div`
 	width: 260px;
-	height: 100px;
+	height: 220px;
 	display: flex;
 	justify-content: center;
 	align-items: center;

@@ -9,4 +9,6 @@ export const Container = styled.div`
 	background: cornsilk;
 	color: #000;
 	align-items: center;
+	position: absolute;
+	bottom: 0;
 `

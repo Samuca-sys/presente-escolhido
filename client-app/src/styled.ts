@@ -12,6 +12,4 @@ export const Wrapper = styled.div`
 
 	height: 100vh;
 	top: 4%;
-
-	justify-content: space-between;
 `
