@@ -53,6 +53,7 @@ const port = process.env.PORT || 3001 //back e tem q ser igual a VITE_SERVER_URL
 
 const app = express()
 app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
 app.use(cors())
 
 app.use('/', giftRoutes)
