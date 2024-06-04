@@ -15,7 +15,6 @@ export const Container = styled.div`
 `
 
 export const CoupleNames = styled.div`
-	margin-top: 140px;
 	h1 {
 		font-size: 1rem;
 	}

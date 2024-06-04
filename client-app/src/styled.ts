@@ -6,10 +6,10 @@ export const Wrapper = styled.div`
 	align-items: center;
 	position: absolute;
 	flex-direction: column;
+	justify-content: center;
 
 	margin: 0 auto;
 	width: 100%;
 
 	height: 100vh;
-	top: 4%;
 `
