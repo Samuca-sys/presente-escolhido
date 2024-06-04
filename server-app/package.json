@@ -4,7 +4,7 @@
 	"description": "This project contains gift chosen apis",
 	"main": "index.ts",
 	"engines": {
-		"node": "14.x"
+		"node": "20.x"
 	},
 	"scripts": {
 		"build": "npx tsc",
