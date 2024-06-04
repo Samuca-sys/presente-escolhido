@@ -22,8 +22,6 @@ export const List = styled.div`
 	position: relative;
 	flex-direction: column;
 
-	height: 320px;
-
 	border: 1px dashed var(--black);
 	background: var(--white);
 	overflow: auto;
@@ -36,4 +34,12 @@ export const List = styled.div`
 	p {
 		text-transform: capitalize;
 	}
+`
+
+export const ListContainer = styled.div`
+	width: 260px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 `

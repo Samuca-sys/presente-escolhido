@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { UrlData } from '../../interface/UrlData'
 
-import { Container, List } from './styled'
+import { Container, List, ListContainer } from './styled'
 
 interface IDataTableProps {
 	data: UrlData[]
@@ -21,7 +21,9 @@ export const GiftsList = ({ data }: IDataTableProps) => {
 	return (
 		<Container>
 			<p>Presentes preparados por Deus:</p>
-			<List>{renderList()}</List>
+			<ListContainer>
+				<List>{renderList()}</List>
+			</ListContainer>
 		</Container>
 	)
 }
