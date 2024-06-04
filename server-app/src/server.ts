@@ -6,7 +6,7 @@ import giftRoutes from './routes/giftRoutes'
 dotenv.config()
 connectDb()
 
-const port = process.env.PORT || 5001
+const port = process.env.PORT || 3001
 
 const app = express()
 app.use(express.json())
