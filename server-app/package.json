@@ -3,9 +3,12 @@
 	"version": "1.0.0",
 	"description": "This project contains gift chosen apis",
 	"main": "index.ts",
+	"engines": {
+		"node": "14.x"
+	},
 	"scripts": {
 		"build": "npx tsc",
-		"start": "npx tsc && node /index.ts",
+		"start": "node /index.ts",
 		"dev": "nodemon",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
