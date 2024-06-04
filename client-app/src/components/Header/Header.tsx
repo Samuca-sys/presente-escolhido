@@ -1,6 +1,6 @@
 import { Container, CoupleNames } from './styled'
 
-import flowers from '../assets/flowers.png'
+import flowers from '../../assets/flowers.png'
 
 export const Header = () => {
 	return (
