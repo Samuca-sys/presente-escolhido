@@ -21,7 +21,6 @@ export const List = styled.ul`
 	align-items: center;
 	position: relative;
 	flex-direction: column;
-	justify-content: center;
 
 	border: 1px dashed var(--black);
 	background: var(--white);

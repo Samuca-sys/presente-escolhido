@@ -11,7 +11,7 @@ export const GiftsList = ({ data }: IDataTableProps) => {
 	const renderList = () => {
 		return data.map((item) => {
 			return (
-				<li key={item._id} data-icon='♥'>
+				<li key={item._id} data-icon='🖤'>
 					{item.gift}
 				</li>
 			)
