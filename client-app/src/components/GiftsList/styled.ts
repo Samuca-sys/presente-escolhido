@@ -16,11 +16,12 @@ export const Container = styled.div`
 	}
 `
 
-export const List = styled.div`
+export const List = styled.ul`
 	display: flex;
 	align-items: center;
 	position: relative;
 	flex-direction: column;
+	justify-content: center;
 
 	border: 1px dashed var(--black);
 	background: var(--white);
@@ -30,9 +31,16 @@ export const List = styled.div`
 
 	padding: 1rem;
 	width: 100%;
+	height: 100%;
 
-	p {
+	li {
 		text-transform: capitalize;
+		list-style-type: none;
+	}
+
+	li::before {
+		content: attr(data-icon);
+		margin-right: 1rem;
 	}
 `
 

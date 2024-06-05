@@ -10,7 +10,11 @@ interface IDataTableProps {
 export const GiftsList = ({ data }: IDataTableProps) => {
 	const renderList = () => {
 		return data.map((item) => {
-			return <p key={item._id}>{item.gift}</p>
+			return (
+				<li key={item._id} data-icon='♥'>
+					{item.gift}
+				</li>
+			)
 		})
 	}
 
