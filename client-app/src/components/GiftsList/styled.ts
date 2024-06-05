@@ -35,6 +35,7 @@ export const List = styled.ul`
 	li {
 		text-transform: capitalize;
 		list-style-type: none;
+		text-align: center;
 	}
 
 	li::before {
